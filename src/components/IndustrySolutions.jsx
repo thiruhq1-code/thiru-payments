@@ -76,7 +76,7 @@ export default function IndustrySolutions() {
                 
                 {/* Real High-Resolution Photo Loaded Directly from Local Assets */}
                 <img 
-                  src={${import.meta.env.BASE_URL}images/d2c.jpg} 
+                  src={import.meta.env.BASE_URL + "images/d2c.jpg"} 
                   alt="Customer holding credit card and smartphone during online shopping checkout" 
                   className="w-full h-full object-cover object-center"
                 />
@@ -192,7 +192,7 @@ export default function IndustrySolutions() {
                 
                 {/* Real High-Resolution Photo Loaded Directly from Local Assets */}
                 <img 
-                  src={${import.meta.env.BASE_URL}images/bfsi.jpg} 
+                  src={import.meta.env.BASE_URL + "images/bfsi.jpg"} 
                   alt="Financial executives and consultants in a modern boardroom" 
                   className="w-full h-full object-cover object-center"
                 />
@@ -331,7 +331,7 @@ export default function IndustrySolutions() {
                 
                 {/* Real High-Resolution Photo Loaded Directly from Local Assets */}
                 <img 
-                  src={${import.meta.env.BASE_URL}images/edtech.jpg} 
+                  src={import.meta.env.BASE_URL + "images/edtech.jpg"} 
                   alt="Father helping daughter with school homework and fee management" 
                   className="w-full h-full object-cover object-center"
                 />
@@ -432,7 +432,7 @@ export default function IndustrySolutions() {
             >
               <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-gray-900 h-[460px] sm:h-[500px] lg:h-[540px]">
                 <img 
-                  src={${import.meta.env.BASE_URL}images/smb.jpg} 
+                  src={import.meta.env.BASE_URL + "images/smb.jpg"} 
                   alt="Dynamic startup founders collaborating in modern office" 
                   className="w-full h-full object-cover object-center"
                 />
@@ -493,7 +493,7 @@ export default function IndustrySolutions() {
             >
               <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-gray-900 h-[460px] sm:h-[500px] lg:h-[540px]">
                 <img 
-                  src={${import.meta.env.BASE_URL}images/enterprise.jpg} 
+                  src={import.meta.env.BASE_URL + "images/enterprise.jpg"} 
                   alt="Modern corporate skyscraper headquarters" 
                   className="w-full h-full object-cover object-center"
                 />

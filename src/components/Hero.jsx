@@ -83,7 +83,7 @@ export default function Hero() {
           >
             <div className="relative w-64 lg:w-72 rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-gradient-to-br from-blue-100 to-brand-50 group hover:scale-105 transition-transform duration-300">
               <img 
-                src={${import.meta.env.BASE_URL}images/hero-merchant.jpg} 
+                src={import.meta.env.BASE_URL + "images/hero-merchant.jpg"} 
                 alt="Confident Indian woman business owner holding smartphone" 
                 className="w-full h-56 lg:h-64 object-cover object-top"
               />
@@ -114,7 +114,7 @@ export default function Hero() {
           >
             <div className="relative w-56 rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-brand-50 group hover:scale-105 transition-transform duration-300">
               <img 
-                src={${import.meta.env.BASE_URL}images/d2c.jpg} 
+                src={import.meta.env.BASE_URL + "images/d2c.jpg"} 
                 alt="Thiru Customer Onboarding Specialist with Headset" 
                 className="w-full h-52 object-cover object-center"
               />
