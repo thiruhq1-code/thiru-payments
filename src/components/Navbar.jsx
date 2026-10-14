@@ -58,7 +58,7 @@ export default function Navbar() {
             <Link to="/" className="flex items-center gap-3 group">
               <div className="h-12 flex items-center">
                 <img 
-                  src="/images/thiru-logo.png" 
+                  src={`${import.meta.env.BASE_URL}images/thiru-logo.png`} 
                   alt="Thiru Payments Logo" 
                   className="h-10 sm:h-12 w-auto object-contain group-hover:scale-105 transition-transform duration-200" 
                 />

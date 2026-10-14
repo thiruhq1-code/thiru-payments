@@ -26,14 +26,14 @@ import AuthPage from './pages/AuthPage';
 
 export default function App() {
   return (
-    <Router>
+    <Router basename={import.meta.env.BASE_URL}>
       <ScrollToTop />
       <div className="min-h-screen flex flex-col bg-[#fafbfb] text-gray-900 font-sans selection:bg-brand-500 selection:text-white">
         <Navbar />
         <main className="flex-1">
           <Routes>
             <Route path="/" element={<HomePage />} />
-            
+
             {/* Product Routes */}
             <Route path="/products/payment-gateway" element={<PaymentGatewayPage />} />
             <Route path="/products/flash-upi" element={<FlashUPIPage />} />

@@ -20,7 +20,7 @@ export default function AuthPage() {
         <div className="text-center space-y-2">
           <Link to="/" className="inline-flex items-center gap-2 mb-2">
             <div className="h-9 flex items-center">
-              <img src="/images/thiru-logo.png" alt="Thiru Payments Logo" className="h-8 w-auto object-contain" />
+              <img src={`${import.meta.env.BASE_URL}images/thiru-logo.png`} alt="Thiru Payments Logo" className="h-8 w-auto object-contain" />
             </div>
             <span className="text-[11px] uppercase font-extrabold px-1.5 py-0.5 rounded bg-navy-50 text-navy-600 border border-navy-200 tracking-widest">
               PAYMENTS

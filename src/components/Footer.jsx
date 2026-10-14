@@ -47,7 +47,7 @@ export default function Footer() {
             <div className="col-span-2 space-y-4">
               <Link to="/" className="inline-block">
                 <div className="bg-white px-3 py-1.5 rounded-xl inline-flex items-center shadow-md hover:opacity-95 transition-opacity">
-                  <img src="/images/thiru-logo.png" alt="Thiru Logo" className="h-7 sm:h-8 w-auto object-contain" />
+                 <img src={`${import.meta.env.BASE_URL}images/thiru-logo.png`} alt="Thiru Logo" className="h-7 sm:h-8 w-auto object-contain" />
                 </div>
               </Link>
               <p className="text-gray-400 text-xs leading-relaxed max-w-sm">
